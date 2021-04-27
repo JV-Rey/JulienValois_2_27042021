@@ -1,4 +1,54 @@
 @font-face {
     font-family: 'Raleway';
-    src: url(fonts/static/Raleway-Regular.ttf) format('truetype');
+    src: url(fonts/Raleway-VariableFont_wght.ttf) format('truetype'),
+        
+}
+
+body{
+    font-family: 'Raleway', Arial;
+    margin: 40px 30px 40px 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+#nav_header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 90px;
+    margin-right: 15px;
+}
+
+#inscription{
+    font-weight: bold;
+    color: #0065FC;
+}
+
+a:hover{
+    border-top: #0065FC solid;
+    padding-top: 36px;
+    color: #0065FC;
+}
+
+#logo{
+    margin-top: -30px;
+}
+
+h1, h2{
+    font-size: 1.35em;
+    font-weight: bolder;
+}
+
+#title{
+    margin-top: 30px;
+}
+
+#title p{
+    margin-top: -8px;
 }
