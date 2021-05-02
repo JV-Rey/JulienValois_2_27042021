@@ -20,5 +20,21 @@
             <p>En plein centre ville ou en pleine nature</p>
         </div>
     </header>
+    <form action="traitement.php" method="post" id="search">
+        <i class="fas fa-map-marker-alt" id="icon_map"></i>
+        <input type="text" id="textarea" placeholder="Marseille, France">
+        <button id="button"><div id="button-text">Rechercher</div></button>
+    </form>
+    <div class="filter">
+        <div id="title">
+            <h2>Filtres</h2>
+        </div>
+        <div class="filter">
+            <a href="#"><i class="fas fa-money-bill-wave"></i><span class="filter_text">économique</span></a>
+            <a href="#"><i class="fas fa-child"></i> <span class="filter_text">Familial</span> </a>
+            <a href="#"><i class="fas fa-heart"></i><span class="filter_text">Romantique</span></a>
+            <a href="#"><i class="fas fa-dog"></i><span class="filter_text">Animaux autorisés</span></a>
+        </div>
+    </div>
 </body>
 </html>
