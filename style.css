@@ -102,7 +102,9 @@ i.fas{
 
 .filter{
     display: flex;
-    margin-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5px;
 }
 
 .filter a{
@@ -111,6 +113,7 @@ i.fas{
     border-radius: 50px;
     border-left: none;
     height: 45px;
+    margin-top: 10px;
 }
 
 .filter_text{
@@ -122,10 +125,9 @@ i.fas{
     margin-right: 30px;
 }
 
-.filter h2{
-    text-align: center;
-    margin-top: 8px;
-    font-size: 1.1em;
+#title2{
+    margin-top: 20px;
+    font-size: 0.8em;
 }
 
 .filter i{
