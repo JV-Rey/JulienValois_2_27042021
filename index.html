@@ -8,32 +8,34 @@
     <script src="https://kit.fontawesome.com/20bd76b430.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <ul id="nav_header">
-            <li><a href="hebergements">Hébergements</a></li>
-            <li><a href="activites">Activités</a></li>
-            <li><a href="#" id="inscription">S'inscrire</a></li>
-        </ul>
-        <img src="images/logo/Reservia.svg" alt="Reservia-logo" id="logo">
-        <div id="title">
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou en pleine nature</p>
-        </div>
-    </header>
-    <form action="traitement.php" method="post" id="search">
-        <i class="fas fa-map-marker-alt" id="icon_map"></i>
-        <input type="text" id="textarea" placeholder="Marseille, France">
-        <button id="button"><div id="button-text">Rechercher</div></button>
-    </form>
-    <div class="filter">
-        <div id="title2">
-            <h2>Filtres</h2>
-        </div>
+    <div id="body_page">
+        <header>
+            <ul id="nav_header">
+                <li><a href="hebergements">Hébergements</a></li>
+                <li><a href="activites">Activités</a></li>
+                <li><a href="#" id="inscription">S'inscrire</a></li>
+            </ul>
+            <img src="images/logo/Reservia.svg" alt="Reservia-logo" id="logo">
+            <div id="title">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+            </div>
+        </header>
+        <form action="traitement.php" method="post" id="search">
+            <i class="fas fa-map-marker-alt" id="icon_map"></i>
+            <input type="text" id="textarea" placeholder="Marseille, France">
+            <button id="button"><div id="button-text">Rechercher</div></button>
+        </form>
         <div class="filter">
-            <a href="#"><i class="fas fa-money-bill-wave"></i><span class="filter_text">économique</span></a>
-            <a href="#"><i class="fas fa-child"></i> <span class="filter_text">Familial</span> </a>
-            <a href="#"><i class="fas fa-heart"></i><span class="filter_text">Romantique</span></a>
-            <a href="#"><i class="fas fa-dog"></i><span class="filter_text">Animaux autorisés</span></a>
+            <div id="title2">
+                <h2>Filtres</h2>
+            </div>
+            <div class="filter">
+                <a href="#"><i class="fas fa-money-bill-wave"></i><span class="filter_text">économique</span></a>
+                <a href="#"><i class="fas fa-child"></i> <span class="filter_text">Familial</span> </a>
+                <a href="#"><i class="fas fa-heart"></i><span class="filter_text">Romantique</span></a>
+                <a href="#"><i class="fas fa-dog"></i><span class="filter_text">Animaux autorisés</span></a>
+            </div>
         </div>
     </div>
 </body>
