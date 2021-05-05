@@ -218,33 +218,37 @@ i.fas{
     border-radius: 50%;
 }
 
-section{
+.section{
     display: flex;
 }
 
-section h2, section h3{
+#title_section{
+    position: absolute;
+    left: 100px;
+    top: 455px;
+}
+
+.section h2, .section h3{
     font-weight: bolder;
 }
 
 article{
     margin-top: 30px;
     padding-bottom: 15px;
-    padding-top: 15px;
+    padding-top: 40px;
     background-color: #F2F2F2;
     border-radius: 20px;
     width: 65%;
+}
+
+article h2{
+    margin-left: 30px;
 }
 
 #flex{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-article h2{
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-left: 30px;
 }
 
 .hebergement{
@@ -313,6 +317,11 @@ aside{
     width: 35%;
 }
 
+aside h2{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
 #title3{
     margin: 30px 30px 15px 30px;
 }
@@ -324,7 +333,7 @@ aside{
 }
 
 .populaire{
-    width: 415px;
+    width: auto;
     height: 150px;
     background-color: white;
     margin: 30px 30px 30px 30px;
@@ -370,4 +379,69 @@ aside{
 
 .populaire:hover{
     box-shadow: 10px 10px 15px gray;
+}
+
+#title_section2{
+    position: absolute;
+    left: 100px;
+}
+
+#width_white{
+    width: 100%;
+    background-color: white;
+}
+
+#flex2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.activite{
+    width: auto;
+    background-color: white;
+    margin: 30px 30px 30px 30px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 1px #DEEBFF;
+}
+.activite:hover{
+    box-shadow: 10px 10px 15px #DEEBFF;
+}
+
+.big img{
+    height: 410px;
+    width: 325px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.flex3{
+    display: flex;
+    flex-direction: column;
+}
+
+.small img{
+    height: 155px;
+    width: 330px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+#pomegues img{
+    height: 205px;
+    width: 330px
+}
+
+#frioul img{
+    height: 100px;
+    width: 330px;
+}
+
+.activite h3{
+    margin-left: 20px;
+    font-weight: bolder;
+    padding-top: 10px;
 }
