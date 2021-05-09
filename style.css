@@ -141,8 +141,8 @@ i.fas{
     background-color: #0065FC;
     height: 4.1em;
     width: 8.5em;
-    border: 0.1em solid #0065FC;
-    border-right: 1px solid #0065FC;
+    border: 0.1em solid transparent ;
+    border-right: 1px solid transparent;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
     margin-left: -5px;
@@ -194,11 +194,11 @@ i.fas{
 
 .filter i{
     padding-left: 15px;
-    border-right: 1em solid #DEEBFF;
     border-radius: 50%;
     line-height: 3;
     color: #0065FC;
     background-color: #DEEBFF;
+    width: 33px;
 }
 
 .filter a:hover{
@@ -411,7 +411,7 @@ aside h2{
 
 .big img{
     height: 410px;
-    width: 325px;
+    width: 300px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
@@ -420,11 +420,12 @@ aside h2{
 .flex3{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .small img{
     height: 155px;
-    width: 330px;
+    width: 300px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
@@ -432,12 +433,10 @@ aside h2{
 
 #pomegues img{
     height: 205px;
-    width: 330px
 }
 
 #frioul img{
     height: 100px;
-    width: 330px;
 }
 
 .activite h3{
@@ -449,14 +448,16 @@ aside h2{
 footer{
     background-color: #F2F2F2;
     margin: 30px -30px -40px -30px;
+    padding-bottom: 30px;
 }
 
 #flex4{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 500px;
-    margin-left: 60px;
+    margin-left: 50px;
+}
+
+.width{
+    width: 30%;
 }
 
 footer h2{
