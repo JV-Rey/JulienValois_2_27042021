@@ -565,4 +565,11 @@ footer a:hover{
         width: 310px;
     }
     
+    #flex4{
+        flex-direction: column;
+    }
+
+    .width{
+        width: 100%;
+    }
 }
