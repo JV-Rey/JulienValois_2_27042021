@@ -545,5 +545,24 @@ footer a:hover{
         border-radius: 0px;
     }
 
+    .activite{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .activite img{
+        height: 155px;
+        width: 310px;
+    }
+
+    #pomegues img{
+        height: 155px;
+        width: 310px;
+    }
+
+    #frioul img{
+        height: 155px;
+        width: 310px;
+    }
     
 }
