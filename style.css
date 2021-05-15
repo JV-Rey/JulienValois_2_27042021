@@ -68,6 +68,7 @@ header{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 #nav_header a{
@@ -75,10 +76,6 @@ a{
     margin-right: 15px;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-a{
-    color: black;
 }
 
 #inscription{
@@ -159,6 +156,10 @@ i.fas{
     font-size: 1.25em;
     color: #F2F2F2;
     font-weight: bold;
+}
+
+#button_icon{
+    display: none;
 }
 
 .filter{
@@ -261,9 +262,7 @@ article h2{
 }
 
 .hebergement{
-    display: flex;
     flex-direction: row;
-    width: 250px;
     background-color: white;
     margin: 30px 30px 30px 30px;
     padding: 5px 5px 5px 5px;
@@ -298,7 +297,7 @@ article p{
 }
 
 article i{
-    margin-top: 5px;
+    margin-top: 10px;
     margin-left: 5px;
 }
 
@@ -316,13 +315,16 @@ article i{
     text-decoration: underline;
 }
 
+#flex{
+    flex: 1;
+}
+
 aside{
     margin-left: 30px;
     padding-bottom: 15px;
     padding-top: 15px;
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 35%;
 }
 
 aside h2{
@@ -382,6 +384,7 @@ aside h2{
 .margin{
     margin-top: auto;
     margin-left: 5px;
+    margin-bottom: 10px;
 }
 
 .populaire:hover{
@@ -513,6 +516,24 @@ footer a:hover{
         border-bottom: 3px solid;
         padding-bottom: 15px;
         padding-top: 0px;
+    }
+
+    #button_icon{
+        display: initial;
+        background-color: #0065FC;
+        height: 4.1em;
+        width: 4.5em;
+        border: 0.1em solid transparent ;
+        border-radius: 1.5em;
+        margin-left: -20px;
+    }
+
+    #button_icon i{
+        color: #F2F2F2;
+    }
+
+    #button{
+        display: none;
     }
     
 }
