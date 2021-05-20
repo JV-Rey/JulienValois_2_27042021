@@ -230,7 +230,6 @@ i.fas{
 article{
     display: flex;
     flex-direction: column;
-    justify-items: baseline;
     padding-bottom: 15px;
     padding-top: 40px;
     background-color: #F2F2F2;
@@ -246,6 +245,8 @@ article h2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    flex: 1;
+    padding-right: 15px;
 }
 
 .hebergement{
@@ -253,7 +254,7 @@ article h2{
     margin-top: 30px;
     margin-bottom: 30px;
     margin-right: auto;
-    margin-left: 20px;
+    margin-left: 15px;
     padding: 5px 5px 5px 5px;
     border: 1px solid #F2F2F2;
     border-radius: 20px;
@@ -305,10 +306,6 @@ article i{
     text-decoration: underline;
 }
 
-#flex{
-    flex: 1;
-}
-
 aside{
     margin-left: 30px;
     padding-bottom: 15px;
@@ -319,7 +316,7 @@ aside{
 }
 
 aside h2{
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 #title3{
@@ -410,6 +407,7 @@ aside h2{
     border-radius: 20px;
     box-shadow: 0px 1px 1px #DEEBFF;
 }
+
 .activite:hover{
     box-shadow: 10px 10px 15px #DEEBFF;
 }
@@ -572,15 +570,21 @@ footer a:hover{
 
     #flex{
         display: inline-block;
+        padding-right: 0px;
     }
 
     .hebergement{
         margin-left: -10px;
         margin-right: -10px;
+        box-shadow: 0px 1px 1px #DEEBFF;
     }
 
     .hebergement a{
         width: 100%;
+    }
+
+    .hebergement:hover{
+        box-shadow: 10px 10px 15px #DEEBFF;
     }
 
     .hebergement img{
