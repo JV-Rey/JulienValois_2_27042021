@@ -635,3 +635,31 @@ footer a:hover{
         flex: 55%;
     }
 }
+
+@media screen and (min-width: 1077px)and (max-width: 1416px){
+
+    #flex2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #one{
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+
+    #two{
+        grid-column: 2 / 2;
+        grid-row: 1;
+    }
+
+    #three{
+        grid-column: 1 / 2;
+        grid-row: 2;
+    }
+
+    #four{
+        grid-column: 2 / 2;
+        grid-row: 2;
+    }
+}
