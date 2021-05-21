@@ -61,6 +61,8 @@ table {
     margin: 40px 30px 40px 30px;
 }
 
+/* en-tête */
+
 header{
     display: flex;
     justify-content: flex-end;
@@ -96,16 +98,18 @@ a{
     margin-right: auto;
 }
 
+/* recherche et filtre */
+
 h1, h2{
     font-size: 1.35em;
     font-weight: bolder;
 }
 
-#title{
+#title_description{
     margin-top: 30px;
 }
 
-#title p{
+#title_description p{
     margin-top: 10px;
 }
 
@@ -188,18 +192,23 @@ i.fas{
     margin-right: 30px;
 }
 
-#title2{
+#title_filter{
     margin-top: 30px;
     font-size: 0.8em;
 }
 
 .filter i{
-    padding-left: 15px;
+    padding: 1px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.i-filter{
     border-radius: 50%;
-    line-height: 3;
-    color: #0065FC;
     background-color: #DEEBFF;
-    width: 33px;
+    padding: 15px;
+    line-height: 3;
+    color: #0065fc;
 }
 
 .filter a:hover{
@@ -219,6 +228,8 @@ i.fas{
     border-radius: 50%;
 }
 
+/* corp de page */
+
 .section{
     display: flex;
 }
@@ -226,6 +237,8 @@ i.fas{
 .section h2, .section h3{
     font-weight: bolder;
 }
+
+/* liste d'hébergement */
 
 article{
     display: flex;
@@ -241,7 +254,7 @@ article h2{
     margin-left: 20px;
 }
 
-#flex{
+#flex_hebergement{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -306,6 +319,8 @@ article i{
     text-decoration: underline;
 }
 
+/* hébergements les plus populaires */
+
 aside{
     margin-left: 30px;
     padding-bottom: 15px;
@@ -319,11 +334,11 @@ aside h2{
     margin-left: 5px;
 }
 
-#title3{
+#title_populaire{
     margin: 30px 30px 15px 30px;
 }
 
-#title3 i{
+#title_populaire i{
     float: right;
     font-size: 1.5em;
     color: black;
@@ -355,7 +370,7 @@ aside h2{
     object-fit: cover;
 }
 
-.flex{
+.flex_populaire{
     display: flex;
     flex-direction: column;
 }
@@ -370,7 +385,7 @@ aside h2{
     margin-left: 5px;
 }
 
-.margin{
+.margin_i_pop{
     margin-top: auto;
     margin-left: 5px;
     margin-bottom: 10px;
@@ -379,6 +394,8 @@ aside h2{
 .populaire:hover{
     box-shadow: 10px 10px 15px gray;
 }
+
+/* liste d'activité */
 
 #title_section2{
     position: absolute;
@@ -390,7 +407,7 @@ aside h2{
     background-color: white;
 }
 
-#flex2{
+#flex_activite{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -420,7 +437,7 @@ aside h2{
     object-fit: cover;
 }
 
-.flex3{
+.flex_small{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -450,13 +467,15 @@ aside h2{
     padding-top: 10px;
 }
 
+/* pied de page */
+
 footer{
     background-color: #F2F2F2;
     margin: 30px -30px -40px -30px;
     padding-bottom: 30px;
 }
 
-#flex4{
+#flex_footer{
     display: flex;
     margin-left: 50px;
 }
@@ -483,6 +502,8 @@ footer a:hover{
     #body_page{
         width: auto;
     }
+
+    /* en-tête */
 
     header{
         flex-wrap: wrap;
@@ -515,6 +536,8 @@ footer a:hover{
         padding-top: 0px;
     }
 
+    /* recherche et filtre */
+
     #textarea{
         width: 60%;
     }
@@ -541,9 +564,13 @@ footer a:hover{
         margin-right: 5px;
     }
 
+    /* corp de page */
+
     .section{
         flex-direction: column;
     }
+
+    /* hébergements les plus populaires */
 
     aside{
         order: -1;
@@ -568,7 +595,9 @@ footer a:hover{
         margin-right: 20px;
     }
 
-    #flex{
+    /* liste d'hébergement */
+
+    #flex_hebergement{
         display: inline-block;
         padding-right: 0px;
     }
@@ -592,7 +621,9 @@ footer a:hover{
         height: 130px;
     }
 
-    #flex2{
+    /* liste d'activité */
+
+    #flex_activite{
         display: inline-block;
     }
 
@@ -601,7 +632,7 @@ footer a:hover{
         margin-left: -10px;
     }
 
-    .flex3{
+    .flex_small{
         margin-left: 0px;
     }
 
@@ -620,7 +651,9 @@ footer a:hover{
         width: 100%;
     }
     
-    #flex4{
+    /* pied de page */
+
+    #flex_footer{
         flex-direction: column;
     }
 
@@ -638,7 +671,7 @@ footer a:hover{
 
 @media screen and (min-width: 1077px)and (max-width: 1416px){
 
-    #flex2{
+    #flex_activite{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }

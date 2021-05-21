@@ -9,6 +9,7 @@
 </head>
 <body>
     <div id="body_page">
+        <!-- en-tête -->
         <header>
             <img src="images/logo/Reservia.svg" alt="Reservia-logo" id="logo">
             <nav id="nav_header">
@@ -17,8 +18,9 @@
             </nav>
             <a href="#" id="inscription">S'inscrire</a>
         </header>
+        <!-- recherche et filtre -->
         <section>
-            <div id="title">
+            <div id="title_description">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
             </div>
@@ -29,24 +31,26 @@
                 <button id="button_icon"><i class="fas fa-search"></i></button>
             </form>
             <div class="filter">
-                <div id="title2">
+                <div id="title_filter">
                     <h2>Filtres</h2>
                 </div>
                 <div class="filter">
-                    <a href="#"><i class="fas fa-money-bill-wave"></i><span class="filter_text">Economique</span></a>
-                    <a href="#"><i class="fas fa-child"></i> <span class="filter_text">Familial</span> </a>
-                    <a href="#"><i class="fas fa-heart"></i><span class="filter_text">Romantique</span></a>
-                    <a href="#"><i class="fas fa-dog"></i><span class="filter_text">Animaux autorisés</span></a>
+                    <a href="#"><span class="i-filter"><i class="fas fa-money-bill-wave"></i></span><span class="filter_text">Economique</span></a>
+                    <a href="#"><span class="i-filter"><i class="fas fa-child"></i></span><span class="filter_text">Familial</span> </a>
+                    <a href="#"><span class="i-filter"><i class="fas fa-heart"></i></span><span class="filter_text">Romantique</span></a>
+                    <a href="#"><span class="i-filter"><i class="fas fa-dog"></i></span><span class="filter_text">Animaux autorisés</span></a>
                 </div>
             </div>
             <div id="number_info">
                 <p><i class="fas fa-info-circle"></i> Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </section>
-        <div class="section">            
+        <!-- corp de page -->
+        <div class="section">
+            <!-- liste d'hébergement -->          
             <article>   
                 <h2 id="hebergements">Hébergements à Marseille</h2>             
-                <div id="flex">
+                <div id="flex_hebergement">
                     <div class="hebergement">
                         <a href="#">
                             <div>
@@ -160,8 +164,9 @@
                     <a href="#">Afficher plus</a>
                 </span>
             </article>
+            <!-- hébergements les plus populaires -->
             <aside>
-                <div id="title3">
+                <div id="title_populaire">
                     <i class="fas fa-chart-line"></i>
                     <h2>Les plus populaires</h2>
                 </div>
@@ -170,12 +175,12 @@
                         <div>
                             <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Le soleil du matin">
                         </div>
-                        <div class="flex">
+                        <div class="flex_populaire">
                             <div>
                                 <h3>Hôtel Le soleil du matin</h3>
                                 <p>Nuit à partir de 128<span class="bolder">€</span></p>
                             </div>
-                            <div class="margin">
+                            <div class="margin_i_pop">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -190,12 +195,12 @@
                         <div>
                             <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau">
                         </div>
-                        <div class="flex">
+                        <div class="flex_populaire">
                             <div>
                                 <h3>Au coeur de l'eau<br>Chambres d'hôtes</h3>
                                 <p>Nuit à partir de 71<span class="bolder">€</span></p>
                             </div>
-                            <div class="margin">
+                            <div class="margin_i_pop">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -210,12 +215,12 @@
                         <div>
                             <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel tout bleu et blanc">
                         </div>
-                        <div class="flex">
+                        <div class="flex_populaire">
                             <div>
                                 <h3>Hôtel Tout bleu et Blanc</h3>
                                 <p>Nuit à partir de 68<span class="bolder">€</span></p>
                             </div>
-                            <div class="margin">
+                            <div class="margin_i_pop">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -228,9 +233,10 @@
             </aside>
         </div>
         <div class="section">
+            <!-- liste d'activité -->
             <article id="width_white">
                 <h2 id="activites">Activités à Marseille</h2>
-                <div id="flex2">
+                <div id="flex_activite">
                     <div class="activite" id="one">
                         <a href="#">
                             <div class="big">
@@ -239,7 +245,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="flex3" id="two">
+                    <div class="flex_small" id="two">
                         <div class="activite">
                             <a href="#">
                                 <div class="small">
@@ -269,7 +275,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="flex3" id="four">
+                    <div class="flex_small" id="four">
                         <div class="activite">
                             <a href="#">
                                 <div class="small">
@@ -290,8 +296,9 @@
                 </div>
             </article>
         </div>
+        <!-- pied de page -->
         <Footer>
-            <div id="flex4">
+            <div id="flex_footer">
                 <div class="width">
                     <h2>A propos</h2>
                     <nav>
