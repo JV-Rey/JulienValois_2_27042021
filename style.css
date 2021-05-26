@@ -683,7 +683,7 @@ footer a:hover{
     }
 }
 
-@media screen and (min-width: 1077px)and (max-width: 1416px){
+@media screen and (min-width: 1040px)and (max-width: 1416px){
 
     #flex_activite{
         display: grid;
