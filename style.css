@@ -608,6 +608,7 @@ footer a:hover{
         padding-top: 40px;
         background-color: white;
         border-radius: 0px;
+        margin-right: 0px;
     }
 
     aside h2{
@@ -629,11 +630,12 @@ footer a:hover{
         display: inline-block;
         padding-right: 0px;
         margin-left: 0px;
-        margin-right: -60px;
+        margin-right: 0px;
     }
 
     .hebergement{
         margin-left: 0px;
+        margin-right: 0px;
         box-shadow: 4px 4px 4px #DEEBFF;
     }
 
